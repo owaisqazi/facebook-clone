@@ -1,0 +1,148 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #d4d9e780;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .loginWrapper{
+        width: 70%;
+        display: flex;
+
+        .loginLeft {
+           display: flex;
+            flex-direction: column;
+            flex: 1;
+            justify-content: center;
+
+            .loginLogo {
+                margin-bottom: 12px;
+               font-size: 50px;
+                font-weight: 800;
+                color: #042147;
+            }
+
+            .loginDasc {
+               font-size: 24px;
+               color: #302f2f;
+            }
+        }
+
+        .loginRight {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            margin: 0px 20px;
+            justify-content: center;
+            box-shadow: -1px 2px 7px -5px;            
+           }
+
+
+            .loginBox {
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                border-radius: 10px;
+                width: 100%;
+
+                .top {
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-between ;
+                    margin: 30px;
+
+                    .profileImg {
+                        display: flex;
+                        width: 70px;
+                        height: 70px;
+                        height: 100%;
+                        border-radius: 50%;
+                        object-fit: cover;
+
+                    }
+
+                    .formInput{
+                        display: flex;
+                        align-items: center;
+
+                        label{
+                            display: flex;
+                            align-items: center;
+
+
+                            .icon{
+                                font-size: 34px;
+                                color: #333;
+                                margin-left: 10px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+                .bottom{
+                    .bottomBox{
+                        height: 350px;
+                        padding: 20px 20px 20px 20px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        border-radius: 10px;
+                        background-color: white;
+
+                        .loginInput{
+                            height: 50px;
+                            border-radius: 10px;
+                            padding-left: 20px;
+                            font-size: 18px;
+                            border: 1px solid rgb(196, 195, 195);
+
+                            &:focus{
+                                outline:2px solid #042147;
+                                border: none;
+                            }
+                        }
+                        .loginbtn{
+                            height: 50px;
+                            width: 100%;
+                            background-color: #042147;
+                            color: white;
+                            font-weight: 600;
+                            font-size: 23px;
+                            border: 5px;
+                            border-radius: 11px;
+                            cursor: pointer;
+                        }
+                        .loginRegisterbtn{
+                            height: 50px;
+                            width: 50%;
+                            background-color: #42b72a;
+                            color: white;
+                            font-weight: 500;
+                            font-size: 18px;
+                            border: 5px;
+                            text-align: center;
+                            margin: 0px 111px;
+                            border-radius: 10px;
+                            cursor: pointer;
+                        }
+                        
+                        .forgit{
+                            text-align: center;
+                            text-decoration:none ;
+                            color: #042147;
+                            
+                        }
+                        
+                    }
+                    #hr{
+                        margin-bottom: 5px;
+                        border: 0.6px solid rgb(237, 237, 237);
+                    }
+                }
+            }
+        }
+    }
+
+
+    

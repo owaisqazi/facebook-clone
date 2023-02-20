@@ -1,0 +1,30 @@
+.RightbsrHome{
+    .birthdayContainer{
+        display: flex;
+        align-items: center;
+
+        .birthdayImg{ 
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+        }
+
+        .birthdayIext{
+            font-size:15px;
+            font-weight:300;
+            cursor: pointer;
+        }
+    }
+    
+            .RightbarAdvert{
+                width: 100%;
+                margin: 30px 0;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+            .birthdayTitle{
+                display: flex;
+                margin-bottom: 20px;
+            }
+}
